@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Fanwood+Text:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Pinyon+Script);
+
+@media only print {
+  @page {
+	  size: 13in 8.5in;
+	  margin: 0.5in 0.55in 0.5in 0.55in;
+  }
+  
+table, th, td {
+  border-style: none;
+  padding: 2em; 
+}
+
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+  
+  
+}
+
+
+body { 
+  font: 11pt/1.4 Lato, sans-serif;
+  text-align: justify;
+  hyphens: auto; 
+}
+
+table, th, td {
+  border: 1px dashed gray;
+  border-collapse: collapse;
+  padding: 0em;
+}
+
+#logo { 
+	margin: 0 0 0.3em;
+    float:left;
+}
+
+#kop-namapemkot { 
+  font: 14pt/0.8 "Arial", serif;
+  text-align: center;
+  margin: 0 0 0.6em;
+}
+
+#kop-namadinas { 
+  font: 18pt/0.8 "Arial", serif;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 5;
+}
+
+#kop-alamat { 
+  font: 10pt/1.2 "Arial", serif;
+  display: block;
+  text-align: center;
+  margin: 5 0 -0.1em;
+}
+
+#tgl-masehi { 
+	font: 11pt/1.2 "arial", serif;
+	margin: 0.5em 0 0em 62.5%; 
+}
+
+#tgl-hijriah { 
+	font: 11pt/1.2 "arial", serif;
+	margin: 0em 0 2em 70%; 
+}
+
+#paragraph-awal { 
+  font: 11pt/1.2 "arial", serif;
+  display: block;
+  text-align: justify;
+  text-indent: 32px;
+  line-height: normal;
+  width: 88%;
+  margin: 2em 5 0em 12%;
+}
+
+#jadwal { 
+	font: 11pt/1.2 "arial", serif;
+	white-space: pre-line;
+	margin: 0em 5 0em 15%;	
+	float:left;
+}
+
+#jadwal-titikdua { 
+	font: 11pt/1.2 "arial", serif;
+	margin: 0em 0 0em 5%;  
+	white-space: pre-line;
+	float:left;
+}
+
+#jadwal-isi { 
+	font: 11pt/1.2 "arial", serif;
+	margin: 0em 0 0em 30%;  
+	white-space: pre-line;
+	text-align: justify;
+}
+
+#paragraph-lain { 
+  font: 11pt/1.2 "arial", serif;
+  display: block;
+  text-align: justify;
+  text-indent: 32px;
+  line-height: normal;
+  width: 88%;
+  margin: 1em 5 0em 12%;
+}
+
+#jabatan { 
+	font: 11pt/1.2 "arial", serif;
+	margin: 3em 0 0em 63%;  
+	white-space: pre-line;
+	float:left;
+}
+
+#qrcode { 
+  margin: 1em 0 0em 30%;
+  float:left;
+}
+
+#ttd-digital { 
+  margin: -0.1em 0 0em 2%;
+  float:left;
+}
+
+#nama { 
+	margin: 0em 0 0em 63%;  
+	font: 11pt/1.2 "arial", serif;
+	font-weight: bold;
+	text-decoration: underline;
+	float:left;
+}
+
+#pangkat { 
+	font: 11pt/1.2 "arial", serif;
+	font-weight: bold;
+	margin: 0em 0 0em 63%;  
+	white-space: pre-line;
+	float:left;
+}
+
+#nip { 
+	font: 11pt/1.2 "arial", serif;
+	margin: 0em 0 0em 63%;  
+	white-space: pre-line;
+	float:left;
+}
+
+#tembusan { 
+	font: 10pt/1.2 "arial", serif;
+	margin: 1em 5 0em 12%;
+	white-space: pre-line;
+	float:left;
+}
